@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS posts; -- 👈 この行を一番上に追加してください！
+
 CREATE TABLE IF NOT EXISTS posts (
     id BIGSERIAL PRIMARY KEY,
     content VARCHAR(256) NOT NULL,
